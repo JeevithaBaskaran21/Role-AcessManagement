@@ -1,0 +1,67 @@
+/* Usermanage.css */
+
+.user-manage-container {
+ display: flex;
+
+ flex-direction: column;
+ align-items: center;
+ padding: 20px;
+ font-family: Arial, sans-serif;
+}
+
+.user-manage-container button {
+ padding: 10px 20px;
+ border: none;
+ border-radius: 2px;
+ background-color: #f2e52e;
+ color: #fff;
+ cursor: pointer;
+ margin-bottom: 20px;
+}
+
+.user-manage-container button:hover {
+ background-color: #0056b3;
+}
+
+form {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ padding: 20px;
+ border: 1px solid #ddd;
+ border-radius: 5px;
+ background-color: #f9f9f9;
+ width: 100%;
+ max-width: 500px;
+}
+
+form div {
+ margin-bottom: 15px;
+ width: 100%;
+}
+
+form label {
+ display: block;
+ margin-bottom: 5px;
+ font-weight: bold;
+}
+
+form input {
+ width: 20px;
+ padding: 8px;
+ border: 1px solid #ddd;
+ border-radius: 1px;
+}
+
+form button {
+ padding: 10px 20px;
+ border: none;
+ border-radius: 2px;
+ background-color: #ce1873;
+ color: #fff;
+ cursor: pointer;
+}
+
+form button:hover {
+ background-color: #9aa6b3;
+}
